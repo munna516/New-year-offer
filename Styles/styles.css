@@ -194,18 +194,33 @@ main section {
     margin-top: 70px;
 }
 
-/* Holiday section */
-
-.holiday-div-1 {
-    text-align: center;
-    max-width: 1068px;
-    margin: 0 auto;
+/* Holiday section --------------------------------------*/
+.holiday-div-1{
+    margin-bottom: 250px;
 }
-
-.holiday-img-2 {
-    margin-bottom: 200px;
+.holiday-sale-content{
+    position: relative;
+    
 }
+.holiday-celebration-img{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
 
+}
+.holiday-sale-img-content-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+.holiday-sale-img-content{
+    position: relative;
+
+}
+.holidays-sale-bottom-layer{
+    background: #F00;
+    height: 230px;
+    border-radius: 16px 0px 16px 16px;
+}
 /* Gift section */
 .gifts-heading {
     max-width: 870px;
