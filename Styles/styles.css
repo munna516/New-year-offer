@@ -153,6 +153,12 @@ main section {
     /* align-items: center; */
 }
 
+.offer-div-1,
+.offer-img-container,
+.last-div {
+    width: 33%;
+}
+
 .offer-subtitle,
 .holiday-subtitle,
 .gift-subtitle {
@@ -186,7 +192,6 @@ main section {
 .offer-img-container {
     border: 15px solid #FF0000;
     border-radius: 100%;
-    margin-right: 90px;
 }
 
 #offers .last-div {
@@ -194,33 +199,39 @@ main section {
     margin-top: 70px;
 }
 
-/* Holiday section --------------------------------------*/
-.holiday-div-1{
+/* Holiday section */
+.holiday-div-1 {
     margin-bottom: 250px;
 }
-.holiday-sale-content{
+
+.holiday-sale-content {
     position: relative;
-    
+
 }
-.holiday-celebration-img{
+
+.holiday-celebration-img {
     position: absolute;
     bottom: 30px;
     left: 30px;
 
 }
-.holiday-sale-img-content-wrapper{
+
+.holiday-sale-img-content-wrapper {
     display: flex;
     justify-content: flex-end;
 }
-.holiday-sale-img-content{
+
+.holiday-sale-img-content {
     position: relative;
 
 }
-.holidays-sale-bottom-layer{
+
+.holidays-sale-bottom-layer {
     background: #F00;
     height: 230px;
     border-radius: 16px 0px 16px 16px;
 }
+
 /* Gift section */
 .gifts-heading {
     max-width: 870px;
