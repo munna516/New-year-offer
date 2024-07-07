@@ -141,3 +141,37 @@ main {
     font-size: 32px;
     font-weight: 600;
 }
+
+/* Offer section */
+.offer-section {
+    display: flex;
+    gap: 100px;
+    /* align-items: center; */
+}
+
+.offer-subtitle {
+    font-size: 24px
+}
+
+.offer-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.offer-description {
+    font-size: 20px;
+}
+.offer-img {
+    padding: 20px;
+}
+.offer-img-container {
+    border: 15px solid #FF0000;
+    border-radius: 100%;
+    margin-right: 100px;
+}
+#offers .last-div{
+    padding-right: 20px;
+    margin-top: 70px;
+}
