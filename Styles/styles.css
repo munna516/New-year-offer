@@ -154,12 +154,14 @@ main section {
 }
 
 .offer-subtitle,
-.holiday-subtitle {
+.holiday-subtitle,
+.gift-subtitle {
     font-size: 24px
 }
 
 .offer-title,
-.holiday-title {
+.holiday-title,
+.gift-title {
     font-size: 48px;
     font-weight: 600;
     margin-top: 0px;
@@ -167,9 +169,14 @@ main section {
 }
 
 .offer-description,
-.holiday-description {
+.holiday-description,
+.gift-description {
     font-size: 20px;
     color: #07021165;
+}
+
+.offer-div-1 {
+    margin-top: 50px;
 }
 
 .offer-img {
@@ -194,8 +201,24 @@ main section {
     max-width: 1068px;
     margin: 0 auto;
 }
-.holiday-img-2{
+
+.holiday-img-2 {
     margin-bottom: 200px;
 }
 
+/* Gift section */
+.gifts-heading {
+    max-width: 870px;
+}
 
+.gift-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.different-gifts {
+    max-width: 420px;
+
+}
