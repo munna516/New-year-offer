@@ -25,6 +25,10 @@ main {
     margin: 0px auto;
 }
 
+main section {
+    margin-bottom: 130px;
+}
+
 /* section 1  */
 #banner {
     background-image: linear-gradient(180deg, #070211, transparent), url('../images/banner-img.png');
@@ -59,7 +63,7 @@ main {
 /* Discount section */
 #discount-section {
     max-width: 800px;
-    margin: 120px auto;
+    margin: 0px auto;
     text-align: center;
 }
 
@@ -87,6 +91,7 @@ main {
     background-position: center;
     background-size: cover;
     border-radius: 15px;
+    margin-top: 130px;
 }
 
 .party-container {
@@ -125,7 +130,6 @@ main {
 
 /* Address Section */
 #address {
-    margin: 130px 0;
     background-color: #dc868631;
     border-radius: 15px;
 }
@@ -149,29 +153,49 @@ main {
     /* align-items: center; */
 }
 
-.offer-subtitle {
+.offer-subtitle,
+.holiday-subtitle {
     font-size: 24px
 }
 
-.offer-title {
+.offer-title,
+.holiday-title {
     font-size: 48px;
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.offer-description {
+.offer-description,
+.holiday-description {
     font-size: 20px;
+    color: #07021165;
 }
+
 .offer-img {
     padding: 20px;
 }
+
 .offer-img-container {
     border: 15px solid #FF0000;
     border-radius: 100%;
-    margin-right: 100px;
+    margin-right: 90px;
 }
-#offers .last-div{
+
+#offers .last-div {
     padding-right: 20px;
     margin-top: 70px;
 }
+
+/* Holiday section */
+
+.holiday-div-1 {
+    text-align: center;
+    max-width: 1068px;
+    margin: 0 auto;
+}
+.holiday-img-2{
+    margin-bottom: 200px;
+}
+
+
