@@ -167,7 +167,8 @@ main section {
 
 .offer-title,
 .holiday-title,
-.gift-title {
+.gift-title,
+.newsletter-title {
     font-size: 48px;
     font-weight: 600;
     margin-top: 0px;
@@ -176,7 +177,8 @@ main section {
 
 .offer-description,
 .holiday-description,
-.gift-description {
+.gift-description,
+.newsletter-description {
     font-size: 20px;
     color: #07021165;
 }
@@ -247,4 +249,39 @@ main section {
 .different-gifts {
     max-width: 420px;
 
+}
+
+/* News-letter section */
+#news-letter-container {
+    background-color: #dc868631;
+    padding: 80px 212px;
+    border-radius: 15px;
+}
+
+.newsletter {
+    max-width: 895px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.news-letter-email-subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-email {
+    background-color: white;
+    padding: 25px 260px 25px 25px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #07021165;
+}
+
+.newsletter-subscribe {
+    background-color: #FF0000;
+    padding: 25px 70px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
 }
